@@ -152,20 +152,6 @@
 //   }
 // }
 
-// https://www.codewars.com/kata/5547929140907378f9000039/train/javascript// ?
-// function shortcut(string) {
-//   let array = ["o", "a", "e", "u", "i"];
-//   if (string == "HELLO") {
-//     return "HELLO";
-//   }
-// }
-
-// console.log(shortcut("hello"));
-// console.log(shortcut("how are you today?"));
-// console.log(shortcut("complain"));
-// console.log(shortcut("never"));
-// console.log(shortcut("HELLO"));
-
 // https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript
 // function openOrSenior(data) {
 //   let array = [];
@@ -180,3 +166,11 @@
 //   }
 //   return array;
 // }
+// https://www.codewars.com/kata/525f50e3b73515a6db000b83/train/javascript
+// function createPhoneNumber(numbers) {
+//   return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`;
+// }
+
+// https://www.codewars.com/kata/5547929140907378f9000039/train/javascript ?
+
+// https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript ?
