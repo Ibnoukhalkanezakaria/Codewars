@@ -197,21 +197,4 @@
 //   return array.join("");
 // }
 
-// https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
-function countSheep(num) {
-  let array = [];
-  for (let i = 0; i < num; i++) {
-    if (num == num) {
-      array.push(`${num} sheep...`);
-    }
-  }
-  return array.join("");
-}
-// "";
-// "1 sheep...";
-// "1 sheep...2 sheep...";
-// "1 sheep...2 sheep...3 sheep..."
-console.log(countSheep(0));
-console.log(countSheep(1));
-console.log(countSheep(2));
-console.log(countSheep(3));
+// https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript ?
