@@ -171,6 +171,21 @@
 //   return `(${numbers[0]}${numbers[1]}${numbers[2]}) ${numbers[3]}${numbers[4]}${numbers[5]}-${numbers[6]}${numbers[7]}${numbers[8]}${numbers[9]}`;
 // }
 
-// https://www.codewars.com/kata/5547929140907378f9000039/train/javascript ?
+// https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/javascript
+// function removeChar(str) {
+//   return str ? str.slice(1, -1) : false;
+// }
 
+// https://www.codewars.com/kata/555086d53eac039a2a000083/train/javascript
+// function lovefunc(flower1, flower2) {
+//   return (flower1 % 2 == 0 && flower2 % 2 == 0) ||
+//     (flower1 % 2 !== 0 && flower2 % 2 !== 0)
+//     ? false
+//     : true;
+// }
+
+// https://www.codewars.com/kata/5547929140907378f9000039/train/javascript ?
 // https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript ?
+// https://www.codewars.com/kata/56269eb78ad2e4ced1000013/train/javascript ?
+// https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/javascript ?
+// https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript ?
