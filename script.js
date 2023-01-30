@@ -141,3 +141,42 @@
 //     return `Hello, World!`;
 //   }
 // }
+
+// https://www.codewars.com/kata/544a54fd18b8e06d240005c0
+// function min(arr, toReturn) {
+//   let array = Math.min(...arr);
+//   if (toReturn == "value") {
+//     return array;
+//   } else {
+//     return arr.indexOf(array);
+//   }
+// }
+
+// https://www.codewars.com/kata/5547929140907378f9000039/train/javascript// ?
+// function shortcut(string) {
+//   let array = ["o", "a", "e", "u", "i"];
+//   if (string == "HELLO") {
+//     return "HELLO";
+//   }
+// }
+
+// console.log(shortcut("hello"));
+// console.log(shortcut("how are you today?"));
+// console.log(shortcut("complain"));
+// console.log(shortcut("never"));
+// console.log(shortcut("HELLO"));
+
+// https://www.codewars.com/kata/5502c9e7b3216ec63c0001aa/train/javascript
+// function openOrSenior(data) {
+//   let array = [];
+//   for (let i = 0; i < data.length; i++) {
+//     if (data[i][0] < 55) {
+//       array.push("Open");
+//     } else if (data[i][0] >= 55 && data[i][1] <= 7) {
+//       array.push("Open");
+//     } else if (data[i][0] >= 55 || data[i][1] >= 7) {
+//       array.push("Senior");
+//     }
+//   }
+//   return array;
+// }
