@@ -219,11 +219,6 @@
 // https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript ?
 // https://www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript ?
 // https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript ?
+//https:www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript ?
 
-//https:www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript
-function mango(quantity, price) {}
-
-console.log(mango(3, 3));
-// 6;
-console.log(mango(9, 5));
-// 30
+// https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript
