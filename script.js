@@ -197,6 +197,33 @@
 //   return array.join("");
 // }
 
+// https://www.codewars.com/kata/5ce9c1000bab0b001134f5af
+// const quarterOf = (month) => {
+//   if (month <= 3) {
+//     return 1;
+//   } else if (month >= 4 && month < 7) {
+//     return 2;
+//   } else if (month >= 7 && month < 10) {
+//     return 3;
+//   } else {
+//     return 4;
+//   }
+// };
+
+// https://www.codewars.com/kata/57a0885cbb9944e24c00008e/train/javascript
+// function removeExclamationMarks(s) {
+//   return s.split("!").join("");
+// }
+
 // https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript ?
 // https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript ?
-// https://www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript
+// https://www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript ?
+// https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript ?
+
+//https:www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript
+function mango(quantity, price) {}
+
+console.log(mango(3, 3));
+// 6;
+console.log(mango(9, 5));
+// 30
