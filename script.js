@@ -215,10 +215,62 @@
 //   return s.split("!").join("");
 // }
 
+// https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript
+// var uniqueInOrder = function (iterable) {
+//   let newArray = [];
+//   for (let i = 0; i < iterable.length; i++) {
+//     if (iterable[i] !== iterable[i + 1]) {
+//       newArray.push(iterable[i]);
+//     }
+//   }
+//   return newArray;
+// };
+
+// https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript
+// function multiply(a, b) {
+//   return a * b;
+// }
+
+// https:www.codewars.com/kata/55fab1ffda3e2e44f00000c6/train/javascript
+// function cockroachSpeed(s) {
+//   if (s) {
+//     return Math.floor(s / 0.036);
+//   } else {
+//     return 0;
+//   }
+// }
+
+//https:www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097/train/javascript
+// function century(year) {
+//   let newyear = year.toString();
+//   let fin = 0;
+//   if (year >= 89 && year < 100) {
+//     return 1;
+//   } else if (year % 100 !== 0) {
+//     newyear = Math.floor(year * 0.01) + 1;
+//     fin += newyear;
+//   } else {
+//     newyear = year / 100;
+//     fin += newyear;
+//   }
+//   return fin;
+// }
+
+// https://www.codewars.com/kata/57356c55867b9b7a60000bd7/train/javascript
+// function basicOp(operation, value1, value2) {
+//   if (operation == "+") {
+//     return value1 + value2;
+//   } else if (operation == "-") {
+//     return value1 - value2;
+//   } else if (operation == "*") {
+//     return value1 * value2;
+//   } else {
+//     return value1 / value2;
+//   }
+// }
+
 // https://www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript ?
 // https://www.codewars.com/kata/517abf86da9663f1d2000003/train/javascript ?
 // https://www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript ?
 // https://www.codewars.com/kata/58649884a1659ed6cb000072/train/javascript ?
 //https:www.codewars.com/kata/57a77726bb9944d000000b06/train/javascript ?
-
-// https://www.codewars.com/kata/54e6533c92449cc251001667/train/javascript
