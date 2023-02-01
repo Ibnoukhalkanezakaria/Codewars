@@ -269,4 +269,85 @@
 //   }
 // }
 
-// https://www.codewars.com/kata/56a1c074f87bc2201200002e/train/javascript
+//https:www.codewars.com/kata/5899dc03bc95b1bf1b0000ad/train/javascript
+// function invert(array) {
+//   let newArray = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] >= 0) {
+//       let index = array[i];
+//       newArray.push(-index);
+//     } else if (array[i] < 0) {
+//       let index = array[i];
+//       newArray.push(-index);
+//     }
+//   }
+//   return newArray;
+// }
+
+//https:www.codewars.com/kata/57eaeb9578748ff92a000009/train/javascript
+// function sumMix(x) {
+//   let newArray = [];
+//   let start = 0;
+//   let newX;
+//   for (let i = 0; i < x.length; i++) {
+//     if (typeof x[i] === "string") {
+//       newX = +x[i];
+//       start += newX;
+//       newArray.push(start);
+//     } else if (x[i]) {
+//       newX = +x[i];
+//       start += newX;
+//       newArray.push(start);
+//     }
+//   }
+//   return start;
+// }
+
+// https://www.codewars.com/kata/559d2284b5bb6799e9000047/train/javascript
+// function addLength(str) {
+//   let newStr = str.split(" ");
+//   let length;
+//   let fin;
+//   let newArray = [];
+//   for (let i = 0; i < newStr.length; i++) {
+//     length = newStr[i].length;
+//     fin = `${newStr[i]} ${length}`;
+//     newArray.push(fin);
+//   }
+//   return newArray;
+// }
+
+// ?
+//https:www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
+// function stray(numbers) {
+//   let newArray = 0;
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] !== numbers[i + 1] && numbers[i] == numbers[i + 2]) {
+//       newArray += numbers[i + 1];
+//       break;
+//     } else if (numbers[i] == numbers[i + 1]) {
+//       newArray += numbers[i + 2];
+//       break;
+//     } else if (numbers[i] !== numbers[i + 1]) {
+//       newArray += numbers[i];
+//       break;
+//     } else if (numbers[i] == 0) {
+//       newArray = 0;
+//       break;
+//     } else {
+//       return 0;
+//     }
+//   }
+//   return newArray;
+// }
+
+// console.log(stray([-3, -17, -17, -17, -17, -17, -17]));
+// console.log(stray([3, 17, 17, 17, 17, 17, 17]));
+// console.log(stray([1, 1, 2]));
+// console.log(stray([1, 2, 1]));
+// console.log(stray([0, 2, 0]));
+// console.log(stray([2, 1, 1]));
+// console.log(stray([17, 17, 3, 17, 17, 17, 17]));
+// console.log(stray([17, 3, 17, 17, 17]));
+// console.log(stray([1]));
+// console.log(stray([-10000, 200000, 200000, 200000, 200000, 200000]));
