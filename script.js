@@ -407,3 +407,28 @@
 // }
 
 // https://www.codewars.com/kata/555eded1ad94b00403000071/train/javascript
+
+//https:www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
+// function getAverage(marks) {
+//   let start = 0;
+//   for (let i = 0; i < marks.length; i++) {
+//     start = start + marks[i];
+//   }
+//   return Math.floor(start / marks.length);
+// }
+
+//https:www.codewars.com/kata/57cebe1dc6fdc20c57000ac9/train/javascript
+// function findShort(s) {
+//   let newArray = s.split(" ");
+//   let array;
+//   let min;
+//   let arrayNumbers = [];
+//   for (let i = 0; i < newArray.length; i++) {
+//     array = newArray[i].length;
+//     arrayNumbers.push(array);
+//     for (let j = 0; j < arrayNumbers.length; j++) {
+//       min = Math.min(...arrayNumbers);
+//     }
+//   }
+//   return min;
+// }
