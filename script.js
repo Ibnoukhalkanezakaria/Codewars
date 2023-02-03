@@ -373,3 +373,37 @@
 //   }
 //   return true;
 // }
+
+//https: www.codewars.com/kata/56dec885c54a926dcd001095/train/javascript
+// function opposite(number) {
+//   if (number < 0) {
+//     return -number;
+//   }
+//   return number > 0 ? -number : number;
+// }
+
+//https:www.codewars.com/kata/5a023c426975981341000014/train/javascript
+// function otherAngle(a, b) {
+//   let start = 180;
+//   let Result = a + b;
+//   return start - Result;
+// }
+
+//https:www.codewars.com/kata/554e4a2f232cdd87d9000038/train/javascript
+// function DNAStrand(dna) {
+//   let newArray = [];
+//   for (let i = 0; i < dna.length; i++) {
+//     if (dna[i] == "T") {
+//       newArray.push("A");
+//     } else if (dna[i] == "A") {
+//       newArray.push("T");
+//     } else if (dna[i] == "G") {
+//       newArray.push("C");
+//     } else if (dna[i] == "C") {
+//       newArray.push("G");
+//     }
+//   }
+//   return newArray.join("");
+// }
+
+// https://www.codewars.com/kata/555eded1ad94b00403000071/train/javascript
