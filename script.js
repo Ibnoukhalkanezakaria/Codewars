@@ -351,3 +351,25 @@
 // console.log(stray([17, 3, 17, 17, 17]));
 // console.log(stray([1]));
 // console.log(stray([-10000, 200000, 200000, 200000, 200000, 200000]));
+
+//https: www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
+// function grow(x) {
+//   let start = 1;
+//   for (let i = 0; i < x.length; i++) {
+//     start = start * x[i];
+//   }
+//   return start;
+// }
+
+//https:www.codewars.com/kata/55f8a9c06c018a0d6e000132
+// function validatePIN(str) {
+//   if (str.length !== 4 && str.length !== 6) {
+//     return false;
+//   }
+//   for (let i = 0; i < str.length; i++) {
+//     if (str[i] < "0" || str[i] > "9") {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
