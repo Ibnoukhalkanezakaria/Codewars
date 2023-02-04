@@ -453,25 +453,26 @@
 //   return arr.join("");
 // };
 
-// Tomorrow
-
-// https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/javascript
-
-// https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
-
-//https:www.codewars.com/kata/576757b1df89ecf5bd00073b/train/javascript
-
-// function towerBuilder(nFloors) {
-//   let str = "*";
-//   let arr = [];
-//   for (let i = 0; i < nFloors; i++) {
-//     arr.push(str);
-//     str += "**";
-//   }
-//   return arr;
+// https://www.codewars.com/kata/5265326f5fda8eb1160004c8/train/javascript
+// function numberToString(num) {
+//   return num.toString();
 // }
 
-// console.log(towerBuilder(1));
-// console.log(towerBuilder(2));
-// console.log(towerBuilder(3));
-// console.log(towerBuilder(4));
+//https:www.codewars.com/kata/582cb0224e56e068d800003c/train/javascript
+// function litres(time) {
+//   let result = time * 0.5;
+//   return Math.floor(result);
+// }
+
+// https://www.codewars.com/kata/57a0e5c372292dd76d000d7e/train/javascript
+// function repeatStr(n, s) {
+//   return s.repeat(n);
+// }
+
+//www.codewars.com/kata/577a98a6ae28071780000989/train/javascript
+// var min = function (list) {
+//   return Math.min(...list);
+// };
+// var max = function (list) {
+//   return Math.max(...list);
+// };
