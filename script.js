@@ -433,8 +433,45 @@
 //   return min;
 // }
 
+//https:www.codewars.com/kata/55685cd7ad70877c23000102/train/javascript
+// if (num < 0) {
+//   return num;
+// } else if (num > 0) {
+//   return -num;
+// } else {
+//   return 0;
+// }
+
+//https:www.codewars.com/kata/5b077ebdaf15be5c7f000077/train/javascript
+// var countSheep = function (num) {
+//   let start = 0;
+//   let arr = [];
+//   for (let i = 0; i < num; i++) {
+//     start += 1;
+//     arr.push(`${start} sheep...`);
+//   }
+//   return arr.join("");
+// };
+
 // Tomorrow
 
 // https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/javascript
 
 // https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
+
+//https:www.codewars.com/kata/576757b1df89ecf5bd00073b/train/javascript
+
+// function towerBuilder(nFloors) {
+//   let str = "*";
+//   let arr = [];
+//   for (let i = 0; i < nFloors; i++) {
+//     arr.push(str);
+//     str += "**";
+//   }
+//   return arr;
+// }
+
+// console.log(towerBuilder(1));
+// console.log(towerBuilder(2));
+// console.log(towerBuilder(3));
+// console.log(towerBuilder(4));
