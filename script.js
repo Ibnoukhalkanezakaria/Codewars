@@ -496,3 +496,15 @@
 //     ? "Keep at it until you get it"
 //     : "Great, now move on to tricks";
 // }
+
+// https://www.codewars.com/kata/5772da22b89313a4d50012f7/train/javascript
+// function greet(name, owner) {
+//   return name == owner ? "Hello boss" : "Hello guest";
+// }
+
+// https://www.codewars.com/kata/59ca8246d751df55cc00014c/train/javascript
+// function hero(bullets, dragons) {
+//   return bullets / 2 >= dragons ? true : false;
+// }
+
+// https://www.codewars.com/kata/546f922b54af40e1e90001da/train/javascript
