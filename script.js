@@ -476,3 +476,23 @@
 // var max = function (list) {
 //   return Math.max(...list);
 // };
+
+//https:www.codewars.com/kata/55b42574ff091733d900002f/train/javascript
+// function friend(friends) {
+//   let arr = [];
+//   let newArray = [];
+//   for (let i = 0; i < friends.length; i++) {
+//     if (friends[i].length == 4) {
+//       arr.push(friends[i]);
+//     }
+//   }
+//   newArray = arr;
+//   return newArray;
+// }
+
+// https://www.codewars.com/kata/55cb632c1a5d7b3ad0000145/train/javascript
+// function hoopCount(n) {
+//   return n < 10
+//     ? "Keep at it until you get it"
+//     : "Great, now move on to tricks";
+// }
