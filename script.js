@@ -604,4 +604,34 @@
 //   return newArray;
 // }
 
+// https://www.codewars.com/kata/5556282156230d0e5e000089/train/javascript
+// function DNAtoRNA(dna) {
+//   let arr = dna.split("");
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] == "T") {
+//       arr[i] = "U";
+//     }
+//   }
+//   return arr.join("");
+// }
+// https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
 // https://www.codewars.com/kata/52742f58faf5485cae000b9a
+// https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript
+// https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
+
+// https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript
+// function strCount(str, letter) {
+//   let start = 0;
+//   let arr = letter;
+//   if (str == "") {
+//     return 0;
+//   }
+//   for (let i = 0; i < str.length; i++) {
+//     for (let j = 0; j < arr.length; j++) {
+//       if (str[i] == arr[j]) {
+//         start += 1;
+//       }
+//     }
+//   }
+//   return start;
+// }
