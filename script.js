@@ -614,10 +614,6 @@
 //   }
 //   return arr.join("");
 // }
-// https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a
-// https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/javascript
-// https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
 
 // https://www.codewars.com/kata/5865918c6b569962950002a1/train/javascript
 // function strCount(str, letter) {
@@ -635,3 +631,21 @@
 //   }
 //   return start;
 // }
+
+// https://www.codewars.com/kata/5715eaedb436cf5606000381/train/javascript
+// function positiveSum(arr) {
+//   let count = 0;
+//   if (arr == "") {
+//     return 0;
+//   }
+//   for (let j = 0; j < arr.length; j++) {
+//     if (arr[j] > 0) {
+//       count += arr[j];
+//     }
+//   }
+//   return count;
+// }
+
+// https://www.codewars.com/kata/52742f58faf5485cae000b9a
+
+// https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
