@@ -649,3 +649,42 @@
 // https://www.codewars.com/kata/52742f58faf5485cae000b9a
 
 // https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
+
+// https://www.codewars.com/kata/554b4ac871d6813a03000035/train/javascript
+// function highAndLow(numbers) {
+//   let arr = numbers.split(" ");
+//   let low = Math.min(...arr);
+//   let high = Math.max(...arr);
+//   let newArray = [];
+//   newArray.push(high, low);
+//   return newArray.join(" ");
+// }
+
+// https:www.codewars.com/kata/585d7d5adb20cf33cb000235/solutions/javascript
+// function findUniq(arr) {
+//   let newArray = [];
+//   for (let j = 0; j < arr.length; j++) {
+//     let result = false;
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arr[j] == arr[i] && i !== j) {
+//         result = true;
+//         break;
+//       }
+//     }
+//     if (result == false) {
+//       newArray.push(arr[j]);
+//     }
+//   }
+//   return +newArray.join("");
+// }
+
+//https:www.codewars.com/kata/53dbd5315a3c69eed20002dd/train/javascript
+// function filter_list(l) {
+//   let arr = [];
+//   for (let i = 0; i < l.length; i++) {
+//     if (typeof l[i] === "number") {
+//       arr.push(l[i]);
+//     }
+//   }
+//   return arr;
+// }
