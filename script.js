@@ -646,8 +646,6 @@
 //   return count;
 // }
 
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a
-
 // https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/javascript
 
 // https://www.codewars.com/kata/554b4ac871d6813a03000035/train/javascript
@@ -687,4 +685,42 @@
 //     }
 //   }
 //   return arr;
+// }
+
+// https://www.codewars.com/kata/53dc23c68a0c93699800041d/train/javascript
+// function smash (words) {
+//    return words !== "" ? words.join(" ") : ""
+// };
+
+//https:www.codewars.com/kata/54edbc7200b811e956000556/train/javascript
+// function countSheeps(arrayOfSheep) {
+//   let count = 0;
+//   for (let i = 0; i < arrayOfSheep.length; i++) {
+//     if (arrayOfSheep[i] == true) {
+//       count += 1;
+//     }
+//   }
+//   return count;
+// }
+
+// https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
+// function abbrevName(name) {
+//   return `${name.split(" ")[0][0].toUpperCase()}.${name
+//     .split(" ")[1][0]
+//     .toUpperCase()}`;
+// }
+
+// https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/javascript
+
+// https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
+// function fakeBin(x) {
+//   let newArray = x.split("");
+//   for (let i = 0; i < newArray.length; i++) {
+//     if (newArray[i] >= 5) {
+//       newArray[i] = 1;
+//     } else if (newArray[i] !== 5) {
+//       newArray[i] = 0;
+//     }
+//   }
+//   return newArray.join("");
 // }
