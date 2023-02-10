@@ -710,8 +710,6 @@
 //     .toUpperCase()}`;
 // }
 
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/javascript
-
 // https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
 // function fakeBin(x) {
 //   let newArray = x.split("");
@@ -724,3 +722,27 @@
 //   }
 //   return newArray.join("");
 // }
+
+// https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/javascript
+// function noSpace(x) {
+//   let newArray = x.split(" ").join("");
+//   return newArray;
+// }
+
+// https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript
+
+// https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+
+// https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript
+
+// https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript
+
+// https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+
+// https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript
+
+// https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
+
+// https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/javascript
+
+// https://www.codewars.com/kata/550498447451fbbd7600041c/train/javascript
