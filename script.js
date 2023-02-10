@@ -729,20 +729,54 @@
 //   return newArray;
 // }
 
-// https://www.codewars.com/kata/55cbd4ba903825f7970000f5/train/javascript
+// https://www.codewars.com/kata/5259b20d6021e9e14c0010d4/train/javascript
+// function reverseWords(str) {
+//   let array = [];
+//   let arr = str.split(" ");
+//   let newA = "";
+//   let start = "";
+//   for (let i = 0; i < arr.length; i++) {
+//     array.push(arr[i]);
+//     for (let j = 0; j < array.length; j++) {
+//       newA = array[j].split("").reverse().join("");
+//     }
+//     start += `${newA} `;
+//   }
+//   return start.split(" ").slice(0, -1).join(" ");
+// }
 
-// https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
+// https://www.codewars.com/kata/5467e4d82edf8bbf40000155/train/javascript
+// function descendingOrder(n) {
+//   let one = n.toString();
+//   return +one.split("").sort().reverse().join("");
+// }
 
-// https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript
+//https:www.codewars.com/kata/53af2b8861023f1d88000832/train/javascript
+// function areYouPlayingBanjo(name) {
+//   if (name[0] == "R" || name[0] == "r") {
+//     return `${name} plays banjo`;
+//   } else {
+//     return `${name} does not play banjo`;
+//   }
+// }
 
-// https://www.codewars.com/kata/54da5a58ea159efa38000836/train/javascript
+// https://www.codewars.com/kata/57f781872e3d8ca2a000007e/train/javascript
+// function maps(x) {
+//   let newArr = [];
+//   for (let j = 0; j < x.length; j++) {
+//     newArr.push(x[j] * 2);
+//   }
+//   return newArr;
+// }
 
-// https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/javascript
-
-// https://www.codewars.com/kata/5ad0d8356165e63c140014d4/train/javascript
-
-// https://www.codewars.com/kata/576b93db1129fcf2200001e6/train/javascript
-
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/javascript
-
-// https://www.codewars.com/kata/550498447451fbbd7600041c/train/javascript
+// https://www.codewars.com/kata/56747fd5cb988479af000028/train/javascript
+// function getMiddle(s) {
+//   let arr = s.split("");
+//   for (let j = 0; j < arr.length; j++) {
+//     if (arr.length % 2 == 0) {
+//       return arr.slice(arr.length / 2 - 1, arr.length / 2 + 1).join("");
+//     } else {
+//       return arr[Math.floor(arr.length / 2)];
+//     }
+//   }
+// }
