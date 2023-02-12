@@ -134,7 +134,7 @@
 // // https://www.codewars.com/kata/57e3f79c9cb119374600046b/train/javascript
 // // function hello(name) {
 // //   if (name) {
-// //     return `Hello, ${name.charAt(0).toUpperCase()}${name
+// //     return `Hello, ${name.charAt(0)}${name
 // //       .slice(1)
 // //       .toLowerCase()}!`;
 // //   } else {
@@ -705,9 +705,9 @@
 
 // https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3/train/javascript
 // function abbrevName(name) {
-//   return `${name.split(" ")[0][0].toUpperCase()}.${name
+//   return `${name.split(" ")[0][0]}.${name
 //     .split(" ")[1][0]
-//     .toUpperCase()}`;
+//     }`;
 // }
 
 // https://www.codewars.com/kata/57eae65a4321032ce000002d/train/javascript
@@ -779,4 +779,34 @@
 //       return arr[Math.floor(arr.length / 2)];
 //     }
 //   }
+// }
+
+// https://www.codewars.com/kata/5410c0e6a0e736cf5b000e69
+// function hamming(a, b) {
+//   if (a == b) {
+//     return 0;
+//   }
+//   let newA = a.split("");
+//   let newB = b.split("");
+//   let newArray = [];
+//   for (let i = 0; i < newA.length; i++) {
+//     for (let j = 0; j < newB.length; j++) {
+//       if (i == j && newA[i] !== newB[j]) {
+//         newArray.push(newB[i]);
+//       }
+//     }
+//   }
+//   return newArray.length;
+// }
+
+// https://www.codewars.com/kata/523f5d21c841566fde000009/train/javascript
+// function arrayDiff(a, b) {
+//   let newArr = [];
+//   for (let i = 0; i < a.length; i++) {
+//     let index = b.indexOf(a[i]);
+//     if (index == -1) {
+//       newArr.push(a[i]);
+//     }
+//   }
+//   return newArr;
 // }
