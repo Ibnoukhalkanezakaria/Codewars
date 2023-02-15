@@ -317,41 +317,6 @@
 // //   return newArray;
 // // }
 
-// // ?
-// //https:www.codewars.com/kata/57f609022f4d534f05000024/train/javascript
-// // function stray(numbers) {
-// //   let newArray = 0;
-// //   for (let i = 0; i < numbers.length; i++) {
-// //     if (numbers[i] !== numbers[i + 1] && numbers[i] == numbers[i + 2]) {
-// //       newArray += numbers[i + 1];
-// //       break;
-// //     } else if (numbers[i] == numbers[i + 1]) {
-// //       newArray += numbers[i + 2];
-// //       break;
-// //     } else if (numbers[i] !== numbers[i + 1]) {
-// //       newArray += numbers[i];
-// //       break;
-// //     } else if (numbers[i] == 0) {
-// //       newArray = 0;
-// //       break;
-// //     } else {
-// //       return 0;
-// //     }
-// //   }
-// //   return newArray;
-// // }
-
-// // console.log(stray([-3, -17, -17, -17, -17, -17, -17]));
-// // console.log(stray([3, 17, 17, 17, 17, 17, 17]));
-// // console.log(stray([1, 1, 2]));
-// // console.log(stray([1, 2, 1]));
-// // console.log(stray([0, 2, 0]));
-// // console.log(stray([2, 1, 1]));
-// // console.log(stray([17, 17, 3, 17, 17, 17, 17]));
-// // console.log(stray([17, 3, 17, 17, 17]));
-// // console.log(stray([1]));
-// // console.log(stray([-10000, 200000, 200000, 200000, 200000, 200000]));
-
 // //https: www.codewars.com/kata/57f780909f7e8e3183000078/train/javascript
 // // function grow(x) {
 // //   let start = 1;
@@ -842,4 +807,33 @@
 //   return oneArray.join("");
 // }
 
-// https://www.codewars.com/kata/554ca54ffa7d91b236000023/train/javascript
+// https://www.codewars.com/kata/558fc85d8fd1938afb000014/train/javascript
+// function sumTwoSmallestNumbers(numbers) {
+//   let one = Math.min(...numbers);
+//   let arr = [];
+//   let newNumbers = numbers.sort();
+//   for (let i = 0; i < newNumbers.length; i++) {
+//     if (newNumbers[i] !== one) {
+//       arr.push(newNumbers[i]);
+//     } else if (newNumbers[i] == newNumbers[i + 1]) {
+//       return newNumbers[i] + newNumbers[i + 1];
+//     }
+//   }
+//   return Math.min(...arr) + one;
+// }
+
+// function testEven(n) {
+//   return n % 2 == 0 ? true : false;
+// }
+
+// https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript
+// function digitize(n) {
+//   let newN = n.toString().split("").reverse();
+//   let arr = [];
+//   for (let i = 0; i < newN.length; i++) {
+//     arr.push(+newN[i]);
+//   }
+//   return arr;
+// }
+
+// https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
