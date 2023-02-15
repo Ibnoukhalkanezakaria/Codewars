@@ -810,3 +810,38 @@
 //   }
 //   return newArr;
 // }
+
+// function disemvowel(str) {
+//   let arr = ["i", "e", "o", "a", "u"];
+//   let newArray = [];
+//   for (let i = 0; i < str.length; i++) {
+//     let index = arr.indexOf(str[i]);
+//     if (index == -1) {
+//       newArray.push(str[i]);
+//     }
+//   }
+//   return newArray.join("");
+// }
+
+// function disemvowel(str) {
+//   let arr = ["i", "e", "o", "a", "u"];
+//   let newArray = [];
+//   let oneArray = [];
+//   let arraay = str.split("");
+//   for (let j = 0; j < arraay.length; j++) {
+//     for (let i = 0; i < arr.length; i++) {
+//       if (arraay[j].toUpperCase() == arr[i].toUpperCase()) {
+//         newArray.push(arraay[j]);
+//       }
+//     }
+//     let check = newArray.indexOf(arraay[j]);
+//     if (check == -1) {
+//       oneArray.push(arraay[j]);
+//     }
+//   }
+//   return oneArray.join("");
+// }
+
+function rot13(message) {
+  //your code here
+}
