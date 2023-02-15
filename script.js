@@ -836,4 +836,22 @@
 //   return arr;
 // }
 
-// https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/javascript
+// https://www.codewars.com/kata/56b1f01c247c01db92000076/train/javascript
+// function doubleChar(str) {
+//   let newArr = str.split("");
+//   let newOne = [];
+//   for (let i = 0; i < newArr.length; i++) {
+//     newOne.push(`${newArr[i]}${newArr[i]}`);
+//   }
+//   return newOne.join("");
+// }
+
+// https://www.codewars.com/kata/546e2562b03326a88e000020/train/javascript
+// function squareDigits(num) {
+//   let arrrray = num.toString().split("");
+//   let arr = [];
+//   for (let i = 0; i < arrrray.length; i++) {
+//     arr.push(+arrrray[i] * +arrrray[i]);
+//   }
+//   return +arr.join("");
+// }
