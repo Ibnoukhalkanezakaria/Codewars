@@ -842,6 +842,4 @@
 //   return oneArray.join("");
 // }
 
-function rot13(message) {
-  //your code here
-}
+// https://www.codewars.com/kata/554ca54ffa7d91b236000023/train/javascript
