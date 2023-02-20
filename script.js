@@ -855,3 +855,41 @@
 //   }
 //   return +arr.join("");
 // }
+
+// https://www.codewars.com/kata/520b9d2ad5c005041100000f/train/javascript
+// function pigIt(str) {
+//   let newArray = str.split(" ");
+//   let last;
+//   let first;
+//   let fin;
+//   let arr = [];
+//   let arraay = [];
+//   for (let i = 0; i < newArray.length; i++) {
+//     last = newArray[i].split("").reverse().slice(-1).join();
+//     first = newArray[i].split("").slice(1, newArray[i].length).join("");
+//     if (newArray[i] == "!" || newArray[i] == "?") {
+//       fin = `${first}${last}`;
+//       arr.push(fin);
+//     } else {
+//       fin = `${first}${last}ay`;
+//       arr.push(fin);
+//     }
+//     arraay = arr;
+//   }
+//   return arraay.join(" ");
+// }
+
+// https://leetcode.com/problems/two-sum/
+// var twoSum = function (nums, target) {
+//   let newArr = [];
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = 0; j < nums.length; j++) {
+//       if (nums[i] + nums[j] == target && i != j) {
+//         newArr.push(i, j);
+//         return newArr;
+//       }
+//     }
+//   }
+// };
+
+// https://leetcode.com/problems/search-insert-position/
