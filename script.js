@@ -892,4 +892,26 @@
 //   }
 // };
 
+// https://www.codewars.com/kata/5949481f86420f59480000e7/train/javascript
+// function oddOrEven(array) {
+//   if (array == "") {
+//     return "even";
+//   }
+//   let count = 0;
+//   for (let j = 0; j < array.length; j++) {
+//     count += array[j];
+//   }
+//   if (count % 2 === 0) {
+//     return "even";
+//   } else {
+//     return "odd";
+//   }
+// }
+
+// https://www.codewars.com/kata/57ea5b0b75ae11d1e800006c/train/javascript
+
+// https://www.codewars.com/kata/5a3dd29055519e23ec000074/train/javascript
+
+// https://www.codewars.com/kata/5a1dc4baffe75f270200006b/train/javascript
+
 // https://leetcode.com/problems/search-insert-position/
